@@ -1,0 +1,16 @@
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/lib/periodic_tasks/periodic_task_node
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/package_run_dependencies/periodic_tasks
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/parent_prefix_path/periodic_tasks
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/ament_prefix_path.sh
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/ament_prefix_path.dsv
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/path.sh
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/path.dsv
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.bash
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.sh
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.zsh
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.dsv
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/package.dsv
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/packages/periodic_tasks
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/cmake/periodic_tasksConfig.cmake
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/cmake/periodic_tasksConfig-version.cmake
+/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/package.xml

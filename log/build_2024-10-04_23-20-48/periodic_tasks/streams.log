@@ -1,0 +1,26 @@
+[0.081s] Invoking command in '/home/teja/ros2_humble/ros2_periodic_tasks/build/periodic_tasks': CMAKE_PREFIX_PATH=/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble /usr/bin/cmake --build /home/teja/ros2_humble/ros2_periodic_tasks/build/periodic_tasks -- -j2 -l2
+[0.222s] [35m[1mConsolidate compiler generated dependencies of target periodic_task_node[0m
+[0.261s] [ 50%] [32mBuilding CXX object CMakeFiles/periodic_task_node.dir/src/periodic_task_node.cpp.o[0m
+[5.003s] [100%] [32m[1mLinking CXX executable periodic_task_node[0m
+[5.352s] [100%] Built target periodic_task_node
+[5.393s] Invoked command in '/home/teja/ros2_humble/ros2_periodic_tasks/build/periodic_tasks' returned '0': CMAKE_PREFIX_PATH=/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble /usr/bin/cmake --build /home/teja/ros2_humble/ros2_periodic_tasks/build/periodic_tasks -- -j2 -l2
+[5.524s] Invoking command in '/home/teja/ros2_humble/ros2_periodic_tasks/build/periodic_tasks': CMAKE_PREFIX_PATH=/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble /usr/bin/cmake --install /home/teja/ros2_humble/ros2_periodic_tasks/build/periodic_tasks
+[5.542s] -- Install configuration: ""
+[5.542s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/lib/periodic_tasks/periodic_task_node
+[5.543s] -- Set runtime path of "/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/lib/periodic_tasks/periodic_task_node" to ""
+[5.543s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/package_run_dependencies/periodic_tasks
+[5.556s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/parent_prefix_path/periodic_tasks
+[5.556s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/ament_prefix_path.sh
+[5.556s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/ament_prefix_path.dsv
+[5.556s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/path.sh
+[5.556s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/path.dsv
+[5.556s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.bash
+[5.556s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.sh
+[5.556s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.zsh
+[5.556s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.dsv
+[5.556s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/package.dsv
+[5.556s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/packages/periodic_tasks
+[5.557s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/cmake/periodic_tasksConfig.cmake
+[5.557s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/cmake/periodic_tasksConfig-version.cmake
+[5.557s] -- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/package.xml
+[5.560s] Invoked command in '/home/teja/ros2_humble/ros2_periodic_tasks/build/periodic_tasks' returned '0': CMAKE_PREFIX_PATH=/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble /usr/bin/cmake --install /home/teja/ros2_humble/ros2_periodic_tasks/build/periodic_tasks

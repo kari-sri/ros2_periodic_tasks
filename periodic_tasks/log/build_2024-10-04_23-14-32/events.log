@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000829] (periodic_tasks) JobQueued: {'identifier': 'periodic_tasks', 'dependencies': OrderedDict()}
+[0.003497] (periodic_tasks) JobStarted: {'identifier': 'periodic_tasks'}
+[0.023122] (periodic_tasks) JobProgress: {'identifier': 'periodic_tasks', 'progress': 'cmake'}
+[0.023312] (periodic_tasks) Command: {'cmd': ['/usr/bin/cmake', '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks', '-DCMAKE_INSTALL_PREFIX=/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks'], 'cwd': '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'teja'), ('SSH_AGENT_PID', '61258'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/teja'), ('OLDPWD', '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/teja/ros2_humble/ros2_periodic_tasks/install:/home/teja/ros2_teja/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'teja'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'teja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/teja-VirtualBox:@/tmp/.ICE-unix/1737,unix/teja-VirtualBox:/tmp/.ICE-unix/1737'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/581ef575_2c93_4d09_99fe_8a478e94ddf4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0U7PV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXL3Nkxm/agent.61257'), ('AMENT_PREFIX_PATH', '/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/teja/ros2_teja/install/periodic_task_scheduler/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble')]), 'shell': False}
+[0.101108] (-) TimerEvent: {}
+[0.203393] (-) TimerEvent: {}
+[0.246360] (periodic_tasks) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.305002] (-) TimerEvent: {}
+[0.395863] (periodic_tasks) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.405281] (-) TimerEvent: {}
+[0.432563] (periodic_tasks) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.506088] (-) TimerEvent: {}
+[0.603548] (periodic_tasks) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.612764] (periodic_tasks) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.612954] (-) TimerEvent: {}
+[0.613989] (periodic_tasks) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.614890] (periodic_tasks) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.619065] (periodic_tasks) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.713975] (-) TimerEvent: {}
+[0.807596] (periodic_tasks) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.814980] (-) TimerEvent: {}
+[0.819825] (periodic_tasks) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.819987] (periodic_tasks) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.820059] (periodic_tasks) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.824981] (periodic_tasks) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.916650] (-) TimerEvent: {}
+[1.017603] (-) TimerEvent: {}
+[1.088566] (periodic_tasks) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.118179] (-) TimerEvent: {}
+[1.221128] (-) TimerEvent: {}
+[1.274870] (periodic_tasks) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.328656] (-) TimerEvent: {}
+[1.333168] (periodic_tasks) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.344972] (periodic_tasks) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.362353] (periodic_tasks) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.377190] (periodic_tasks) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.409473] (periodic_tasks) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.429113] (-) TimerEvent: {}
+[1.469116] (periodic_tasks) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.471959] (periodic_tasks) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.529910] (-) TimerEvent: {}
+[1.670488] (periodic_tasks) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.670797] (-) TimerEvent: {}
+[1.755447] (periodic_tasks) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.771146] (-) TimerEvent: {}
+[1.864024] (periodic_tasks) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.874922] (periodic_tasks) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.875133] (-) TimerEvent: {}
+[1.975346] (-) TimerEvent: {}
+[2.045305] (periodic_tasks) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.045485] (periodic_tasks) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.077278] (-) TimerEvent: {}
+[2.177869] (-) TimerEvent: {}
+[2.227296] (periodic_tasks) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.229029] (periodic_tasks) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.278059] (-) TimerEvent: {}
+[2.391925] (-) TimerEvent: {}
+[2.447208] (periodic_tasks) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.464608] (periodic_tasks) StdoutLine: {'line': b'-- Generating done\n'}
+[2.470379] (periodic_tasks) StdoutLine: {'line': b'-- Build files have been written to: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks\n'}
+[2.500576] (periodic_tasks) CommandEnded: {'returncode': 0}
+[2.501569] (-) TimerEvent: {}
+[2.506636] (periodic_tasks) JobProgress: {'identifier': 'periodic_tasks', 'progress': 'build'}
+[2.507111] (periodic_tasks) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks', '--', '-j2', '-l2'], 'cwd': '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'teja'), ('SSH_AGENT_PID', '61258'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/teja'), ('OLDPWD', '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/teja/ros2_humble/ros2_periodic_tasks/install:/home/teja/ros2_teja/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'teja'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'teja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/teja-VirtualBox:@/tmp/.ICE-unix/1737,unix/teja-VirtualBox:/tmp/.ICE-unix/1737'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/581ef575_2c93_4d09_99fe_8a478e94ddf4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0U7PV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXL3Nkxm/agent.61257'), ('AMENT_PREFIX_PATH', '/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/teja/ros2_teja/install/periodic_task_scheduler/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble')]), 'shell': False}
+[2.604897] (-) TimerEvent: {}
+[2.613678] (periodic_tasks) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/periodic_task_node.dir/src/periodic_task_node.cpp.o\x1b[0m\n'}
+[2.723332] (-) TimerEvent: {}
+[2.828676] (-) TimerEvent: {}
+[2.929268] (-) TimerEvent: {}
+[3.034797] (-) TimerEvent: {}
+[3.137739] (-) TimerEvent: {}
+[3.238452] (-) TimerEvent: {}
+[3.362332] (-) TimerEvent: {}
+[3.463440] (-) TimerEvent: {}
+[3.565722] (-) TimerEvent: {}
+[3.668161] (-) TimerEvent: {}
+[3.772380] (-) TimerEvent: {}
+[3.873193] (-) TimerEvent: {}
+[3.975841] (-) TimerEvent: {}
+[4.085761] (-) TimerEvent: {}
+[4.186737] (-) TimerEvent: {}
+[4.288324] (-) TimerEvent: {}
+[4.394721] (-) TimerEvent: {}
+[4.505373] (-) TimerEvent: {}
+[4.606534] (-) TimerEvent: {}
+[4.713566] (-) TimerEvent: {}
+[4.814936] (-) TimerEvent: {}
+[4.915486] (-) TimerEvent: {}
+[5.016118] (-) TimerEvent: {}
+[5.117153] (-) TimerEvent: {}
+[5.276893] (-) TimerEvent: {}
+[5.378080] (-) TimerEvent: {}
+[5.488421] (-) TimerEvent: {}
+[5.599414] (-) TimerEvent: {}
+[5.701459] (-) TimerEvent: {}
+[5.837432] (-) TimerEvent: {}
+[5.939322] (-) TimerEvent: {}
+[6.046070] (-) TimerEvent: {}
+[6.146578] (-) TimerEvent: {}
+[6.254444] (-) TimerEvent: {}
+[6.357410] (-) TimerEvent: {}
+[6.460205] (-) TimerEvent: {}
+[6.560541] (-) TimerEvent: {}
+[6.661597] (-) TimerEvent: {}
+[6.762320] (-) TimerEvent: {}
+[6.862956] (-) TimerEvent: {}
+[6.949260] (periodic_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPeriodicTask::PeriodicTask(int, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.949764] (periodic_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:11:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KPeriodicTask\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Ktask_id_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.950553] (periodic_tasks) StderrLine: {'line': b'   11 |     : Node("periodic_task_" + std::to_string(task_id)), \x1b[01;31m\x1b[Ktask_id_\x1b[m\x1b[K(task_id), task_name_(task_name)\n'}
+[6.952160] (periodic_tasks) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.952364] (periodic_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:11:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KPeriodicTask\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Ktask_name_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.952676] (periodic_tasks) StderrLine: {'line': b'   11 | ic_task_" + std::to_string(task_id)), task_id_(task_id), \x1b[01;31m\x1b[Ktask_name_\x1b[m\x1b[K(task_name)\n'}
+[6.953054] (periodic_tasks) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.953291] (periodic_tasks) StderrLine: {'line': b'\n'}
+[6.958825] (periodic_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:14:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.960822] (periodic_tasks) StderrLine: {'line': b'   14 |         \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(\n'}
+[6.960988] (periodic_tasks) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.961053] (periodic_tasks) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[6.963902] (-) TimerEvent: {}
+[6.984169] (periodic_tasks) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.984489] (periodic_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.984979] (periodic_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.985079] (periodic_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.985145] (periodic_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.985201] (periodic_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.985255] (periodic_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.985307] (periodic_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.985377] (periodic_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.985432] (periodic_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.985484] (periodic_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.985535] (periodic_tasks) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:1\x1b[m\x1b[K:\n'}
+[6.985587] (periodic_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PeriodicTask::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.985681] (periodic_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:26:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktask_id_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.985738] (periodic_tasks) StderrLine: {'line': b'   26 | this->get_logger(), "[Task %d] %s executed at time: %s", \x1b[01;31m\x1b[Ktask_id_\x1b[m\x1b[K, task_name_.c_str(), oss.str().c_str());\n'}
+[6.985802] (periodic_tasks) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.985854] (periodic_tasks) StderrLine: {'line': b'\n'}
+[7.002049] (periodic_tasks) StderrLine: {'line': b'\x1b[01m\x1b[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:26:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktask_name_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbasename\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.002267] (periodic_tasks) StderrLine: {'line': b'   26 | logger(), "[Task %d] %s executed at time: %s", task_id_, \x1b[01;31m\x1b[Ktask_name_\x1b[m\x1b[K.c_str(), oss.str().c_str());\n'}
+[7.002348] (periodic_tasks) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.002406] (periodic_tasks) StderrLine: {'line': b'\n'}
+[7.064062] (-) TimerEvent: {}
+[7.165453] (-) TimerEvent: {}
+[7.275048] (-) TimerEvent: {}
+[7.375847] (-) TimerEvent: {}
+[7.476469] (-) TimerEvent: {}
+[7.577178] (-) TimerEvent: {}
+[7.678745] (-) TimerEvent: {}
+[7.779086] (-) TimerEvent: {}
+[7.882339] (-) TimerEvent: {}
+[7.889271] (periodic_tasks) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/periodic_task_node.dir/build.make:76: CMakeFiles/periodic_task_node.dir/src/periodic_task_node.cpp.o] Error 1\n'}
+[7.890428] (periodic_tasks) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/periodic_task_node.dir/all] Error 2\n'}
+[7.890599] (periodic_tasks) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.895477] (periodic_tasks) CommandEnded: {'returncode': 2}
+[7.982895] (-) TimerEvent: {}
+[8.012320] (periodic_tasks) JobEnded: {'identifier': 'periodic_tasks', 'rc': 2}
+[8.030577] (-) EventReactorShutdown: {}

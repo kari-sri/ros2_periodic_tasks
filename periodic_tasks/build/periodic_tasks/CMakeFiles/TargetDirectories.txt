@@ -1,0 +1,10 @@
+/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks/CMakeFiles/uninstall.dir
+/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks/CMakeFiles/periodic_tasks_uninstall.dir
+/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks/CMakeFiles/periodic_task_node.dir
+/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks/CMakeFiles/test.dir
+/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks/CMakeFiles/edit_cache.dir
+/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks/CMakeFiles/rebuild_cache.dir
+/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks/CMakeFiles/list_install_components.dir
+/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks/CMakeFiles/install.dir
+/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks/CMakeFiles/install/local.dir
+/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks/CMakeFiles/install/strip.dir

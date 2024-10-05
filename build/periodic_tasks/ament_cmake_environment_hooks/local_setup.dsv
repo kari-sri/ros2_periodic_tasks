@@ -1,0 +1,2 @@
+source;share/periodic_tasks/environment/ament_prefix_path.sh
+source;share/periodic_tasks/environment/path.sh

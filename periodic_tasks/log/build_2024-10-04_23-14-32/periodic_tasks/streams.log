@@ -1,0 +1,74 @@
+[0.020s] Invoking command in '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks': CMAKE_PREFIX_PATH=/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble /usr/bin/cmake /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks -DCMAKE_INSTALL_PREFIX=/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks
+[0.243s] -- The C compiler identification is GNU 11.4.0
+[0.392s] -- The CXX compiler identification is GNU 11.4.0
+[0.429s] -- Detecting C compiler ABI info
+[0.600s] -- Detecting C compiler ABI info - done
+[0.609s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.611s] -- Detecting C compile features
+[0.611s] -- Detecting C compile features - done
+[0.616s] -- Detecting CXX compiler ABI info
+[0.804s] -- Detecting CXX compiler ABI info - done
+[0.816s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.816s] -- Detecting CXX compile features
+[0.817s] -- Detecting CXX compile features - done
+[0.822s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.085s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.271s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.330s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.342s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.359s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.406s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.466s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.473s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.667s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.752s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.861s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.871s] -- Looking for pthread.h
+[2.042s] -- Looking for pthread.h - found
+[2.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.224s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.226s] -- Found Threads: TRUE  
+[2.444s] -- Configuring done
+[2.461s] -- Generating done
+[2.467s] -- Build files have been written to: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks
+[2.498s] Invoked command in '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks' returned '0': CMAKE_PREFIX_PATH=/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble /usr/bin/cmake /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks -DCMAKE_INSTALL_PREFIX=/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks
+[2.504s] Invoking command in '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks': CMAKE_PREFIX_PATH=/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble /usr/bin/cmake --build /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks -- -j2 -l2
+[2.610s] [ 50%] [32mBuilding CXX object CMakeFiles/periodic_task_node.dir/src/periodic_task_node.cpp.o[0m
+[6.946s] [01m[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:[m[K In constructor ‘[01m[KPeriodicTask::PeriodicTask(int, const string&)[m[K’:
+[6.947s] [01m[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:11:57:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPeriodicTask[m[K’ does not have any field named ‘[01m[Ktask_id_[m[K’
+[6.948s]    11 |     : Node("periodic_task_" + std::to_string(task_id)), [01;31m[Ktask_id_[m[K(task_id), task_name_(task_name)
+[6.949s]       |                                                         [01;31m[K^~~~~~~~[m[K
+[6.949s] [01m[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:11:76:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPeriodicTask[m[K’ does not have any field named ‘[01m[Ktask_name_[m[K’
+[6.949s]    11 | ic_task_" + std::to_string(task_id)), task_id_(task_id), [01;31m[Ktask_name_[m[K(task_name)
+[6.950s]       |                                                          [01;31m[K^~~~~~~~~~[m[K
+[6.950s] 
+[6.955s] [01m[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[6.957s]    14 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[6.957s]       |         [01;31m[K^~~~~~[m[K
+[6.958s]       |         [32m[Ktimer_t[m[K
+[6.981s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.981s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.981s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.982s]                  from [01m[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:1[m[K:
+[6.982s] [01m[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:[m[K In member function ‘[01m[Kvoid PeriodicTask::timer_callback()[m[K’:
+[6.982s] [01m[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:26:74:[m[K [01;31m[Kerror: [m[K‘[01m[Ktask_id_[m[K’ was not declared in this scope
+[6.982s]    26 | this->get_logger(), "[Task %d] %s executed at time: %s", [01;31m[Ktask_id_[m[K, task_name_.c_str(), oss.str().c_str());
+[6.982s]       |                                                          [01;31m[K^~~~~~~~[m[K
+[6.982s] 
+[6.999s] [01m[K/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/src/periodic_task_node.cpp:26:84:[m[K [01;31m[Kerror: [m[K‘[01m[Ktask_name_[m[K’ was not declared in this scope; did you mean ‘[01m[Kbasename[m[K’?
+[6.999s]    26 | logger(), "[Task %d] %s executed at time: %s", task_id_, [01;31m[Ktask_name_[m[K.c_str(), oss.str().c_str());
+[6.999s]       |                                                          [01;31m[K^~~~~~~~~~[m[K
+[6.999s] 
+[7.886s] gmake[2]: *** [CMakeFiles/periodic_task_node.dir/build.make:76: CMakeFiles/periodic_task_node.dir/src/periodic_task_node.cpp.o] Error 1
+[7.887s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/periodic_task_node.dir/all] Error 2
+[7.887s] gmake: *** [Makefile:146: all] Error 2
+[7.892s] Invoked command in '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks' returned '2': CMAKE_PREFIX_PATH=/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble /usr/bin/cmake --build /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks -- -j2 -l2

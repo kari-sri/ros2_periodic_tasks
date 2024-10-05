@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.003222] (periodic_tasks) JobQueued: {'identifier': 'periodic_tasks', 'dependencies': OrderedDict()}
+[0.003330] (periodic_tasks) JobStarted: {'identifier': 'periodic_tasks'}
+[0.026249] (periodic_tasks) JobProgress: {'identifier': 'periodic_tasks', 'progress': 'cmake'}
+[0.027305] (periodic_tasks) JobProgress: {'identifier': 'periodic_tasks', 'progress': 'build'}
+[0.028866] (periodic_tasks) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks', '--', '-j2', '-l2'], 'cwd': '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'teja'), ('SSH_AGENT_PID', '61258'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/teja'), ('OLDPWD', '/home/teja/ros2_humble/ros2_periodic_tasks'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/teja/ros2_humble/ros2_periodic_tasks/install:/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install:/home/teja/ros2_teja/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'teja'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'teja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/teja-VirtualBox:@/tmp/.ICE-unix/1737,unix/teja-VirtualBox:/tmp/.ICE-unix/1737'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/581ef575_2c93_4d09_99fe_8a478e94ddf4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0U7PV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXL3Nkxm/agent.61257'), ('AMENT_PREFIX_PATH', '/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks:/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/teja/ros2_teja/install/periodic_task_scheduler/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks:/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble')]), 'shell': False}
+[0.103081] (-) TimerEvent: {}
+[0.181602] (periodic_tasks) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target periodic_task_node\x1b[0m\n'}
+[0.203396] (-) TimerEvent: {}
+[0.216590] (periodic_tasks) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/periodic_task_node.dir/src/periodic_task_node.cpp.o\x1b[0m\n'}
+[0.303651] (-) TimerEvent: {}
+[0.404325] (-) TimerEvent: {}
+[0.505837] (-) TimerEvent: {}
+[0.612268] (-) TimerEvent: {}
+[0.712687] (-) TimerEvent: {}
+[0.813117] (-) TimerEvent: {}
+[0.913676] (-) TimerEvent: {}
+[1.014849] (-) TimerEvent: {}
+[1.115572] (-) TimerEvent: {}
+[1.218233] (-) TimerEvent: {}
+[1.319332] (-) TimerEvent: {}
+[1.419829] (-) TimerEvent: {}
+[1.520251] (-) TimerEvent: {}
+[1.620648] (-) TimerEvent: {}
+[1.722428] (-) TimerEvent: {}
+[1.824622] (-) TimerEvent: {}
+[1.943428] (-) TimerEvent: {}
+[2.045427] (-) TimerEvent: {}
+[2.146619] (-) TimerEvent: {}
+[2.247727] (-) TimerEvent: {}
+[2.348159] (-) TimerEvent: {}
+[2.451125] (-) TimerEvent: {}
+[2.552531] (-) TimerEvent: {}
+[2.653146] (-) TimerEvent: {}
+[2.753772] (-) TimerEvent: {}
+[2.854463] (-) TimerEvent: {}
+[2.955392] (-) TimerEvent: {}
+[3.056052] (-) TimerEvent: {}
+[3.156558] (-) TimerEvent: {}
+[3.257099] (-) TimerEvent: {}
+[3.358028] (-) TimerEvent: {}
+[3.458801] (-) TimerEvent: {}
+[3.559204] (-) TimerEvent: {}
+[3.671807] (-) TimerEvent: {}
+[3.772450] (-) TimerEvent: {}
+[3.875571] (-) TimerEvent: {}
+[3.976712] (-) TimerEvent: {}
+[4.077147] (-) TimerEvent: {}
+[4.177858] (-) TimerEvent: {}
+[4.280354] (-) TimerEvent: {}
+[4.380759] (-) TimerEvent: {}
+[4.481516] (-) TimerEvent: {}
+[4.582383] (-) TimerEvent: {}
+[4.682709] (-) TimerEvent: {}
+[4.783177] (-) TimerEvent: {}
+[4.883614] (-) TimerEvent: {}
+[4.984363] (-) TimerEvent: {}
+[5.084757] (-) TimerEvent: {}
+[5.126757] (periodic_tasks) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable periodic_task_node\x1b[0m\n'}
+[5.189276] (-) TimerEvent: {}
+[5.290689] (-) TimerEvent: {}
+[5.327400] (periodic_tasks) StdoutLine: {'line': b'[100%] Built target periodic_task_node\n'}
+[5.367823] (periodic_tasks) CommandEnded: {'returncode': 0}
+[5.391083] (-) TimerEvent: {}
+[5.491642] (-) TimerEvent: {}
+[5.502042] (periodic_tasks) JobProgress: {'identifier': 'periodic_tasks', 'progress': 'install'}
+[5.529489] (periodic_tasks) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks'], 'cwd': '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'teja'), ('SSH_AGENT_PID', '61258'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/teja'), ('OLDPWD', '/home/teja/ros2_humble/ros2_periodic_tasks'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/teja/ros2_humble/ros2_periodic_tasks/install:/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install:/home/teja/ros2_teja/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'teja'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'teja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/teja-VirtualBox:@/tmp/.ICE-unix/1737,unix/teja-VirtualBox:/tmp/.ICE-unix/1737'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/581ef575_2c93_4d09_99fe_8a478e94ddf4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0U7PV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.125'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXL3Nkxm/agent.61257'), ('AMENT_PREFIX_PATH', '/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks:/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/build/periodic_tasks'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/teja/ros2_teja/install/periodic_task_scheduler/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks:/home/teja/ros2_teja/install/periodic_task_scheduler:/opt/ros/humble')]), 'shell': False}
+[5.547083] (periodic_tasks) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.547373] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/lib/periodic_tasks/periodic_task_node\n'}
+[5.547507] (periodic_tasks) StdoutLine: {'line': b'-- Set runtime path of "/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/lib/periodic_tasks/periodic_task_node" to ""\n'}
+[5.547590] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/package_run_dependencies/periodic_tasks\n'}
+[5.547823] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/parent_prefix_path/periodic_tasks\n'}
+[5.548438] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/ament_prefix_path.sh\n'}
+[5.548954] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/ament_prefix_path.dsv\n'}
+[5.549086] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/path.sh\n'}
+[5.549153] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/path.dsv\n'}
+[5.549211] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.bash\n'}
+[5.549608] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.sh\n'}
+[5.549809] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.zsh\n'}
+[5.550355] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.dsv\n'}
+[5.550424] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/package.dsv\n'}
+[5.550696] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/packages/periodic_tasks\n'}
+[5.552172] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/cmake/periodic_tasksConfig.cmake\n'}
+[5.552301] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/cmake/periodic_tasksConfig-version.cmake\n'}
+[5.552361] (periodic_tasks) StdoutLine: {'line': b'-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/package.xml\n'}
+[5.554822] (periodic_tasks) CommandEnded: {'returncode': 0}
+[5.592146] (-) TimerEvent: {}
+[5.685785] (periodic_tasks) JobEnded: {'identifier': 'periodic_tasks', 'rc': 0}
+[5.687366] (-) EventReactorShutdown: {}

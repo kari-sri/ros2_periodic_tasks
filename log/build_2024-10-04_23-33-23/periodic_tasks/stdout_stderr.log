@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/teja/ros2_humble/ros2_periodic_tasks/build/periodic_tasks
+[ 50%] [32mBuilding CXX object CMakeFiles/periodic_task_node.dir/src/periodic_task_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable periodic_task_node[0m
+[100%] Built target periodic_task_node
+-- Install configuration: ""
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/lib/periodic_tasks/periodic_task_node
+-- Set runtime path of "/home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/lib/periodic_tasks/periodic_task_node" to ""
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/package_run_dependencies/periodic_tasks
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/parent_prefix_path/periodic_tasks
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/ament_prefix_path.sh
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/ament_prefix_path.dsv
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/path.sh
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/path.dsv
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.bash
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.sh
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.zsh
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.dsv
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/package.dsv
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/packages/periodic_tasks
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/cmake/periodic_tasksConfig.cmake
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/cmake/periodic_tasksConfig-version.cmake
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/install/periodic_tasks/share/periodic_tasks/package.xml

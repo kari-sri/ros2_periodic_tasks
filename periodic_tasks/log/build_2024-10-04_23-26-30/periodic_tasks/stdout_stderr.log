@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target periodic_task_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/periodic_task_node.dir/src/periodic_task_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable periodic_task_node[0m
+[100%] Built target periodic_task_node
+-- Install configuration: ""
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/lib/periodic_tasks/periodic_task_node
+-- Set runtime path of "/home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/lib/periodic_tasks/periodic_task_node" to ""
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/package_run_dependencies/periodic_tasks
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/parent_prefix_path/periodic_tasks
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/ament_prefix_path.sh
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/ament_prefix_path.dsv
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/path.sh
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/environment/path.dsv
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.bash
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.sh
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.zsh
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/local_setup.dsv
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/package.dsv
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/ament_index/resource_index/packages/periodic_tasks
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/cmake/periodic_tasksConfig.cmake
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/cmake/periodic_tasksConfig-version.cmake
+-- Installing: /home/teja/ros2_humble/ros2_periodic_tasks/periodic_tasks/install/periodic_tasks/share/periodic_tasks/package.xml

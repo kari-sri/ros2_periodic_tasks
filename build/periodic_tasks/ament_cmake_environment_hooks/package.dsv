@@ -1,0 +1,4 @@
+source;share/periodic_tasks/local_setup.bash
+source;share/periodic_tasks/local_setup.dsv
+source;share/periodic_tasks/local_setup.sh
+source;share/periodic_tasks/local_setup.zsh
